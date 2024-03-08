@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Lifetime Supply Calculator</h1>
+    <script>
+        var favsnacks=prompt('enter your fav snacks');
+        var age=+prompt('enter your current age');
+        var maxAge=65;
+        var perday=+prompt('enter your amount of snacks you eat per day');
+        document.write(`Favourite Snacks: ${favsnacks}<br>`);
+        document.write(`Current age: ${age}<br>`);
+        document.write(`Estimated max age: ${maxAge}<br>`);
+        document.write(`You will need ${(maxAge-age)*perday} ${favsnacks} to last you untill the ripe old age of 65<br>`);
+
+    </script>
+</body>
+</html>
